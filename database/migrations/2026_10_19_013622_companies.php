@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('Companies', function (Blueprint $table) {
             $table->id('company_id');
             $table->char('company_name',255);
-            $table->char('headquarters_phone_number',12); //0823 2828 0150
+            $table->char('headquarters_phone_number',14); //0823 2828 0150
             $table->timestamps();
         });
     }
